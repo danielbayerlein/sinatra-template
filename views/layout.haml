@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Sinatra Template
+    %meta{charset: 'utf-8'}
+    %meta{name: :description, content: 'Example'}
+    %meta{name: :author, content: 'Example'}
+    %meta{name: :robots, content: 'index, follow, noodp'}
+    %meta{name: :viewport, content: 'width=device-width, initial-scale=1.0'}
+    /[if IE] <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    != css :screen, media: 'screen'
+    != js :application
+  %body
+    = yield
