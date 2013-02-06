@@ -1,10 +1,10 @@
 # Sinatra Template
 
-A base (Sinatra)[https://github.com/sinatra/sinatra] application template with:
-* (Haml)[https://github.com/haml/haml]
-* (Sass)[https://github.com/nex3/sass]
-* (CoffeeScript)[http://coffeescript.org]
-* (Sinatra AssetPack)[https://github.com/rstacruz/sinatra-assetpack]
+A base [Sinatra](https://github.com/sinatra/sinatra) application template with:
+* [Haml](https://github.com/haml/haml)
+* [Sass](https://github.com/nex3/sass)
+* [CoffeeScript](http://coffeescript.org)
+* [Sinatra AssetPack](https://github.com/rstacruz/sinatra-assetpack)
 
 ## Installation
 
