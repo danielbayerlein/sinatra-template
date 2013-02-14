@@ -13,12 +13,22 @@ class App < Sinatra::Base
   register Sinatra::AssetPack
 
   assets {
-    serve '/javasripts', from: 'app/javascripts'
+    serve '/javascripts', from: 'app/javascripts'
     serve '/stylesheets', from: 'app/stylesheets'
     serve '/images', from: 'app/images'
 
+    js :application, '/app/javascripts/application.js', [
+      '/javascripts/application.js',
+    ]
+
+    css :screen, '/app/stylesheets/screen.css', [
+      '/stylesheets/screen.css',
+    ]
+
     js_compression :uglify
     css_compression :sass
+
+    prebuild true
   }
 
   get '/' do
