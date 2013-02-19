@@ -12,6 +12,20 @@ A base [Sinatra](https://github.com/sinatra/sinatra) application template with:
 $ bundle
 ```
 
+## Usage
+
+Precompiling Assets:
+
+``` bash
+$ rake assetpack:build
+```
+
+Fire up the web server:
+
+``` bash
+$ thin start
+```
+
 ## Contributing
 
 1. Fork it
