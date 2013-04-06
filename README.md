@@ -1,10 +1,10 @@
 # Sinatra Template
 
-A base [Sinatra](https://github.com/sinatra/sinatra) application template with:
-* [Haml](https://github.com/haml/haml)
-* [Sass](https://github.com/nex3/sass)
-* [CoffeeScript](http://coffeescript.org)
-* [Sinatra AssetPack](https://github.com/rstacruz/sinatra-assetpack)
+A base [Sinatra](http://www.sinatrarb.com) application template with:
+* [Haml](http://haml.info)
+* [Sass](http://sass-lang.com)
+* [CoffeeScript](http://jashkenas.github.io/coffee-script/)
+* [Sinatra AssetPack](http://ricostacruz.com/sinatra-assetpack/)
 
 ## Installation
 
@@ -14,16 +14,16 @@ $ bundle
 
 ## Usage
 
-Precompiling Assets:
-
-``` bash
-$ rake assetpack:build
-```
-
 Fire up the web server:
 
 ``` bash
 $ thin start
+```
+
+Precompiling Assets (this is optional):
+
+``` bash
+$ rake assetpack:build
 ```
 
 ## Contributing
