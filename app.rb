@@ -17,12 +17,12 @@ class App < Sinatra::Base
     serve '/stylesheets', from: 'app/stylesheets'
     serve '/images', from: 'app/images'
 
-    js :application, '/app/javascripts/application.js', [
-      '/javascripts/application.js',
+    js :application, [
+      '/javascripts/application.js'
     ]
 
-    css :screen, '/app/stylesheets/screen.css', [
-      '/stylesheets/screen.css',
+    css :screen, [
+      '/stylesheets/screen.css'
     ]
 
     js_compression :uglify
