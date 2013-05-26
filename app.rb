@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
 require 'sinatra/assetpack'
+require 'sinatra/partial'
 
 class App < Sinatra::Base
   set :root, File.dirname(__FILE__)
@@ -9,6 +10,9 @@ class App < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
   end
+
+  register Sinatra::Partial
+  enable :partial_underscores
 
   register Sinatra::AssetPack
 

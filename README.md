@@ -7,6 +7,7 @@ A base [Sinatra](http://www.sinatrarb.com) application template with:
 * [Sass](http://sass-lang.com)
 * [CoffeeScript](http://jashkenas.github.io/coffee-script/)
 * [Sinatra AssetPack](http://ricostacruz.com/sinatra-assetpack/)
+* [Sinatra Partial](https://github.com/yb66/Sinatra-Partial)
 
 ## Installation
 
