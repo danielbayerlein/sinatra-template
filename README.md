@@ -1,5 +1,7 @@
 # Sinatra Template
 
+[![Dependency Status](https://gemnasium.com/danielbayerlein/sinatra-template.png)](https://gemnasium.com/danielbayerlein/sinatra-template)
+
 A base [Sinatra](http://www.sinatrarb.com) application template with:
 * [Haml](http://haml.info)
 * [Sass](http://sass-lang.com)
