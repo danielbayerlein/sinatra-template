@@ -7,7 +7,7 @@ gem 'sinatra-partial', '~> 0.4.0'
 gem 'haml', '~> 4.0.3'
 gem 'sass', '~> 3.2.12'
 gem 'coffee-script', '~> 2.2.0'
-gem 'uglifier', '~> 2.2.1'
+gem 'uglifier', '~> 2.3.0'
 
 group :development do
   gem 'thin'
