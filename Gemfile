@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 1.4.3'
+gem 'sinatra', '~> 1.4.4'
 gem 'sinatra-contrib', '~> 1.4.2'
 gem 'sinatra-assetpack', '~> 0.3.2', require: 'sinatra/assetpack'
 gem 'sinatra-partial', '~> 0.4.0'
